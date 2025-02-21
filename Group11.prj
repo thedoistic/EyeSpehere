@@ -1,0 +1,74 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2636212482" file="/Users/edinkoc/Desktop/Group11Final/Group11.prj" location="/Users/edinkoc/Desktop/Group11Final" name="Group11" target="target.mlapps" target-name="Package App">
+    <param.appname>Group11</param.appname>
+    <param.authnamewatermark>Edin Koç</param.authnamewatermark>
+    <param.email>edin.koc@stu.khas.edu.tr</param.email>
+    <param.company>Group11</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Final Project for Image Processing</param.summary>
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}/logos/logo1.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>1d2f2c68-f2db-4814-a895-6cf498727fe0</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/Group11.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/canny.m</file>
+      <file>${PROJECT_ROOT}/chough.m</file>
+      <file>${PROJECT_ROOT}/daugman.m</file>
+      <file>${PROJECT_ROOT}/icons/download.png</file>
+      <file>${PROJECT_ROOT}/icons/loading.png</file>
+      <file>${PROJECT_ROOT}/icons/terminate.png</file>
+      <file>${PROJECT_ROOT}/icons/upload.svg</file>
+      <file>${PROJECT_ROOT}/kmeans_custom.m</file>
+      <file>${PROJECT_ROOT}/logos/logo1.png</file>
+      <file>${PROJECT_ROOT}/logos/logo2.png</file>
+      <file>${PROJECT_ROOT}/rgb_hsi.m</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}/images</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/edinkoc/Desktop" name="Group11Final" optional="false">/Users/edinkoc/Desktop/Group11Final</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2024b.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>15.2</osver>
+      <os32>true</os32>
+      <os64>false</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
